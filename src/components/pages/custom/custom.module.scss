@@ -1,0 +1,56 @@
+.custom{
+    color: white;
+    min-height: 500px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    img{
+        background-color: grey;
+    }
+    .formContainer{
+        padding: 5px;
+    }
+    .formText{
+        min-height: 50vh;
+        align-content: center;
+        line-height: 1.4;
+        margin-bottom: 5px;
+        h2{
+            color: gold;
+        }
+    }
+}
+
+.form{
+    height: 400px;
+    display: grid;
+    grid-template-rows: 1fr,1fr,1fr,1fr,1fr,5fr,1fr;
+    .description{
+        height: 150px;
+    }
+    input{
+        width: 95%;
+        height: 95%;
+        margin: auto;
+        padding: 5px;
+    }
+    .checkboxContainer{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: fit-content;
+        input{
+            width: 20px;
+        }
+    }
+    label{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100px;
+        min-height: 50px;
+        align-content: center;
+    }
+}

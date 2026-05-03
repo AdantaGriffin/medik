@@ -1,0 +1,107 @@
+.kings{
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    
+    img{
+        height: 100%;
+        width: 100%;
+        transition: ease-in 1.2s;
+        &:hover{
+            opacity: .5;
+            cursor:grab;
+            transition: ease-out 1.2s;
+            transform: scale(.95);
+        }
+    }
+    .kingsone{
+        border: 2px solid black;
+        width: 100%;
+        height: 400px;
+        button{
+            background-color: transparent;
+            border: 1px solid gold;
+            position: relative;
+            bottom: 40%;
+            left: 30%;
+            width: 200px;
+            height: 50px;
+            &:hover{
+                cursor: pointer;
+                width: 100%;
+                height: 100%;
+                position: relative;
+                bottom: 400px;
+                left: 0%;
+                color: white;
+                font-size: clamp(30px, 50vw, 100px);
+                border: 4px solid black;
+            }
+        }
+        &:hover{
+            button{
+                transition: ease-out 1.2s;
+                background: rgba(255, 215, 0, .4);
+            }
+        }
+    }
+    .kingstwo{
+        border: 2px solid black;
+        width: 40%;
+        height: 200px;
+        align-content: center;
+        p{
+            color: white;
+            text-align: center;
+            font-size: clamp(20px, 3vw, 50px);
+        }
+    }
+    .kingsthree{
+        border: 2px solid black;
+        width: 50%;
+        height: 650px;
+    }
+    .kingsfour{
+        border: 2px solid black;
+        width: 50%;
+        height: 550px;
+    }
+    .kingseight{
+        border: 2px solid black;
+        width: 50%;
+        height: 550px;
+    }
+    .kingsfive{
+        border: 2px solid black;
+        width: 50%;
+        height: 750px;
+    }
+    .kingssix{
+        border: 2px solid black;
+        width: 50%;
+        height: 750px;
+    }
+    .kingsseven{
+        border: 2px solid black;
+        width: 50%;
+        height: 350px;
+    }
+    .kingseight{
+        border: 2px solid black;
+        width: 50%;
+        height: 550px;
+    }
+    .kingsnine{
+        border: 2px solid black;
+        width: 50%;
+        height: 250px;
+    }
+    .kingsten{
+        border: 2px solid black;
+        width: 80%;
+        height: 550px;
+    }
+}

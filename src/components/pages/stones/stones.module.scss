@@ -1,0 +1,40 @@
+.stones{
+    margin-top: 50px;
+    min-height: 1500px;
+    display: grid;
+    grid-template-rows: 25% 75%;
+}
+.header{
+    background-image: url('../../../../public/images/multi.avif');
+    background-size: 100% 100%;
+    div{
+        width: 50%;
+        height: 100%;
+        background: rgba(42, 42, 42, 0.5);
+        color: white;
+        align-content: center;
+        text-align: center;
+    }
+}
+.stonesList{
+        align-content: center;
+        overflow-x: scroll;
+        background-color: black;
+    .list{
+        border: 5px solid black;
+        height: 95%;
+        width: fit-content;
+        display: flex;
+        gap: 15px;
+        list-style: none;
+    }
+
+    li{
+        border: 1px solid black;
+        width: 200px;
+        background-color: whitesmoke;
+        &:hover{
+            opacity: .7;
+        }
+    }
+}

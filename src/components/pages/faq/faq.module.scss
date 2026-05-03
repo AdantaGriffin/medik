@@ -1,0 +1,28 @@
+.faq{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.faqOne{
+    height: fit-content;
+    align-content: center;
+    text-align: center;
+    line-height: 1.8;
+    border-bottom: .5px solid lightgrey;
+    h2{
+        color: gold;
+    }
+}
+.faqTwo, .faqThree, .faqFour, .faqFive, .faqSix, .faqSeven, .faqEight, .faqNine, .faqTen, .faqEleven, .faqTwelve, .faqThirteen{
+    height:  fit-content;
+    align-content: center;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    border-bottom: .5px solid lightgrey;
+    h3{
+        color: gold;
+    }
+}
+.somethingMissed{
+    text-align: center;
+}

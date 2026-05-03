@@ -1,0 +1,59 @@
+.header{
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    z-index: 100;
+    opacity: .95;
+    border: 1px solid black;
+    box-shadow: 1px 1px 50px grey;
+    display: grid;
+    grid-template-rows: 60% 20% 20%;
+
+    .headerImg{
+        margin: 30px auto;
+    }
+    .scrollingBanner{
+        border: 1px solid gold;
+        height: 60%;
+        position: relative;
+        top: 15px;
+        padding: 0 20px;
+    }
+    .headerNav{
+        padding: 0 10px;
+    }
+}
+.scrollingBanner{
+        height: 10vh;
+        align-content: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        overflow: hidden;
+        mask-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 1) 20%,
+          rgba(0, 0, 0, 1) 80%,
+          rgba(0, 0, 0, 0)
+        );
+    }
+    @keyframes scrollLeft {
+      to {
+        left: -200px;
+      }
+    }
+    .bannerBrand{
+        width: 250px;
+        position: absolute;
+        left: max(calc(200px * 1), 100%);
+        animation-name: scrollLeft;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        color: red;
+    }

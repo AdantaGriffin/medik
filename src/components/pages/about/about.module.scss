@@ -1,0 +1,61 @@
+.about{
+    margin-top: 50px;
+    height: 100vh;
+    background-image: url('../../../../public/images/chess.avif');
+    background-size: 100% 100%;
+    overflow-x: scroll;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.aboutOne{
+    min-height: 600px;
+    align-content: center;
+    color: whitesmoke;
+    padding: 10px;
+    p{
+        line-height: 1.7;
+        width: 70%;
+    }
+}
+.aboutTwo{
+    background-color: black;
+    color: whitesmoke;
+    display: grid;
+    grid-template-rows: 1fr 1fr
+}
+.aboutTwoTop{
+    border: 5px solid black;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+
+    img{
+        border: 5px solid black;
+        height: 100%;
+        width: 100%;
+    }
+
+    div{
+        align-content: center;
+        padding: 20px;
+    }
+}
+.aboutTwoBot{
+    border: 5px solid black;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+
+    img{
+        border: 5px solid black;
+        height: 100%;
+        width: 100%;
+    }
+
+    div{
+        align-content: center;
+        padding: 20px;
+    }
+}

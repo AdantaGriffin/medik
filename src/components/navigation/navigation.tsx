@@ -43,6 +43,7 @@ function Navigation(){
                     </ul>
                 </section>
                 <section className={styles.navLinksContainer}>
+                    <p>links</p>
                     <ul className={styles.navLinks}>
                         <li><Link onClick={toTop}  to="https://www.facebook.com/paramedikdesigns" target="_blank"><img height="20px" width="20px" alt="icon" src="/images/facebook.png"/></Link></li>
                         <li><Link onClick={toTop}  to="https://www.instagram.com/paramedikdesigns/" target="_blank"><img height="20px" width="20px" alt="icon" src="/images/instagram.png"/></Link></li>

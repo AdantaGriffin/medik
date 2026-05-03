@@ -1,3 +1,26 @@
+@media only screen and (max-width: 700px) {
+  .navLinks{
+    position: absolute;
+    flex-wrap: wrap;
+    width: 60px;
+    height: fit-content !important;
+    background-color: black;
+    padding: 5px !important;
+    display: none !important;
+   
+  }
+  .navLinksContainer p{
+        display: block !important;
+        position: relative;
+        top: -2px;
+        left: 20px;
+        &:hover{
+            cursor: pointer;
+            text-decoration: line-through;
+        }
+    }
+}
+
 .navigation{
     height: 100%;
     align-content: center;
@@ -39,23 +62,30 @@
     opacity:.8;
     }
 
-.dropContent {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: black;
-    display: flex;
-    flex-direction: column;
-    min-width: 100px;
-    padding: 12px;
-    z-index: 1000;
-    a{
-        &:hover{
-            background-color: white;
-            color: black;
+    .dropContent {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: black;
+        display: flex;
+        flex-direction: column;
+        min-width: 100px;
+        padding: 12px;
+        z-index: 1000;
+        a{
+            &:hover{
+                background-color: white;
+                color: black;
+            }
         }
     }
-}
+    .navLinksContainer{
+        position: relative;
+        top: 3px;
+        p{
+            display: none;
+        }
+    }
 
 .noDrop {
     display: none;

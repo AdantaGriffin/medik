@@ -1,5 +1,4 @@
 import styles from './shop.module.scss';
-import { Link } from 'react-router-dom';
 import { useApi } from '../../api/api';
 
 function Shop(){

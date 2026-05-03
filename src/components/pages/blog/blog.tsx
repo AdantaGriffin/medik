@@ -1,6 +1,4 @@
 import styles from './blog.module.scss';
-import { Link } from 'react-router-dom';
-import { useApi } from '../../api/api';
 
 function Blog(){
     return(

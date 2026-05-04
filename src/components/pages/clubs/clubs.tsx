@@ -5,7 +5,6 @@ function Clubs(){
         <>
             <section className={styles.kings}>
                 <div className={styles.kingsone}>
-                    <img src="/images/kingone.jpg" alt="kingsimage"/>
                     <button className={styles.button}>Clubs</button>
                 </div>
                 <div className={styles.kingstwo}>

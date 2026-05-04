@@ -8,5 +8,12 @@
         text-align: center;
         border-bottom: .5px solid lightgrey;
         padding-bottom: 10px;
+        code{
+            border: 2px solid black;
+            border-radius: 50%;
+            padding: 5px;
+            background-color: rgba(237, 219, 160, 0.4);
+            text-shadow: 1px 1px 10px white;
+        }
     }
 }

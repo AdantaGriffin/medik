@@ -6,6 +6,9 @@ import { toTop } from '../api/api';
 function Navigation(){
     const {shoppingCart, setShoppingCart, dropShop, setDropShop, dropSociety, setDropSociety} = useApi();
     console.log(shoppingCart)
+    const alterCart = () => {
+        setShoppingCart(prev => !prev);
+    }
     return(
         <>
             <nav className={styles.navigation}>
@@ -39,11 +42,11 @@ function Navigation(){
                             
                         </li>
                         <li><Link to="/faq">Faqs</Link></li>
-                        <li><Link to="/custom">customs</Link></li>
+                        <li><Link to="/custom">Customs</Link></li>
                     </ul>
                 </section>
                 <section className={styles.navLinksContainer}>
-                    <p>links</p>
+                    <button className={styles.cartButton} onClick={alterCart}>Links</button>
                     <ul className={styles.navLinks}>
                         <li><Link onClick={toTop}  to="https://www.facebook.com/paramedikdesigns" target="_blank"><img height="20px" width="20px" alt="icon" src="/images/facebook.png"/></Link></li>
                         <li><Link onClick={toTop}  to="https://www.instagram.com/paramedikdesigns/" target="_blank"><img height="20px" width="20px" alt="icon" src="/images/instagram.png"/></Link></li>

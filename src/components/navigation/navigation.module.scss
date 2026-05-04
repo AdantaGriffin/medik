@@ -9,6 +9,23 @@
     display: none !important;
    
   }
+  .navigation, button{
+    font-size: 14px;
+  }
+  .navLinksContainer .cartButton{
+    display: block !important;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    bottom: 2px;
+    left: 20px; 
+        &:hover{
+            cursor: pointer;
+            text-decoration: line-through;
+        }
+  }
   .navLinksContainer p{
         display: block !important;
         position: relative;
@@ -35,17 +52,10 @@
         padding: 0;
         margin: 0;
         height: 100%;
-        button{
-            background-color: transparent;
-            border: none;
-            &:hover{
-                cursor: pointer;
-            } 
-        }
     }
     .navList{
         li{
-            min-width: 75px;
+            width: 75px;
             text-align: center;
             a{
                 color: white;
@@ -83,6 +93,9 @@
         position: relative;
         top: 3px;
         p{
+            display: none;
+        }
+        .cartButton{
             display: none;
         }
     }

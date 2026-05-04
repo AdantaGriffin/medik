@@ -1,6 +1,7 @@
 .custom{
+    margin-top: 50px;
     color: white;
-    min-height: 500px;
+    min-height: 900px;
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -21,8 +22,30 @@
         }
     }
 }
-
 .form{
+    text-align: center;
+    height: 40%;
+    align-content: center;
+
+    .checkboxContainer{
+        margin: 10px 0 10px 0;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 5px;
+        position: relative;
+        top: 40px;
+
+        label{
+        }
+    }
+        .submit{
+            position: relative; 
+            top: 80px;
+            padding: 0 20px;
+        }
+}
+/*.form{
     height: 400px;
     display: grid;
     grid-template-rows: 1fr,1fr,1fr,1fr,1fr,5fr,1fr;
@@ -53,4 +76,4 @@
         min-height: 50px;
         align-content: center;
     }
-}
+}*/

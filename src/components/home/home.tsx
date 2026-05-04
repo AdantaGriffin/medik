@@ -141,13 +141,18 @@ function Home(){
 
                  <section className={styles.pdsociety}>
                     <img alt="pd society collection" src="./images/lol.jpg"/>
-                    <h2>PD Collection</h2>
+                    <h2>PD Collection </h2>
+                    <h3>House of Cards</h3>
+                    <p>Since 2020, Parademik Designs has been helping customers globally with our selection of exquisite and unique jewlery.</p>
                     <Link onClick={toTop}  to="null">view collection</Link>
                 </section>
 
                  <section className={styles.customize}>
                     <img alt="custom collection" src="./images/ruler.jpg"/>
                     <h2>Custom Collection</h2>
+                    <h3>Made Just For You</h3>
+                    <p>A customized bracelet is designed with only its owner in mind.The process of creating it, however long- established, should be every bit as accomodationg.</p>
+                    <p>Let us know what kind of bracelet you would like us to create.</p>
                     <Link onClick={toTop}  to="/custom">view collection</Link>
                 </section>
 

@@ -5,7 +5,7 @@ function Footer(){
         <>
             <footer className={styles.footer}>
                 <h4>
-                    ©2022 by Paramedik Designs - <code>Made by <span style={{color: "red"}}>Adanta</span> Ahmed <span style={{color: "blue"}}>Griffin</span></code>
+                    ©2022 by Paramedik Designs - <code><span style={{color: "blue"}}>A</span>A<span style={{color: "red"}}>G</span></code>
                 </h4>
             </footer>
         </>

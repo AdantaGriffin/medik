@@ -46,7 +46,7 @@ function Navigation(){
                     </ul>
                 </section>
                 <section className={styles.navLinksContainer}>
-                    <button className={styles.cartButton} onClick={alterCart}>Links</button>
+                    <button className={styles.cartButton} onClick={alterCart}>Cart</button>
                     <ul className={styles.navLinks}>
                         <li><Link onClick={toTop}  to="https://www.facebook.com/paramedikdesigns" target="_blank"><img height="20px" width="20px" alt="icon" src="/images/facebook.png"/></Link></li>
                         <li><Link onClick={toTop}  to="https://www.instagram.com/paramedikdesigns/" target="_blank"><img height="20px" width="20px" alt="icon" src="/images/instagram.png"/></Link></li>

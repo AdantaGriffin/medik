@@ -19,11 +19,11 @@ function Cart(){
                                 <p>item name</p>
                                 <p>size</p>
                             </div>
-                            <div className={styles.itemPrice}>price</div>
+                            <div className={styles.itemPrice}>priced</div>
                         </li>
                     </ul>
                 </div>
-                <div>totals</div>
+                <div>totaled</div>
             </div>
         </>
     )

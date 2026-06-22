@@ -50,7 +50,7 @@ function Home(){
 
                 <section className={styles.quickView}>
                     <div className={styles.item}>
-                        <img alt="image" src="null"/>
+                        <img alt="indian agate" src="null"/>
                         <div className={styles.itemDetails}>
                             <p>Indian Agate</p>
                             <hr></hr>
@@ -58,7 +58,7 @@ function Home(){
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img alt="image" src="null"/>
+                        <img alt="yellow agate" src="null"/>
                         <div className={styles.itemDetails}>
                             <p>Yellow Agate</p>
                             <hr></hr>
@@ -66,7 +66,7 @@ function Home(){
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img alt="image" src="null"/>
+                        <img alt="jasper" src="null"/>
                         <div className={styles.itemDetails}>
                             <p>Jasper</p>
                             <hr></hr>
@@ -74,7 +74,7 @@ function Home(){
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img alt="image" src="null"/>
+                        <img alt="lime green jade" src="null"/>
                         <div className={styles.itemDetails}>
                             <p>Lime Green Jade</p>
                             <hr></hr>
@@ -82,7 +82,7 @@ function Home(){
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img alt="image" src="null"/>
+                        <img alt="sodalite" src="null"/>
                         <div className={styles.itemDetails}>
                             <p>Sodalite</p>
                             <hr></hr>
@@ -90,7 +90,7 @@ function Home(){
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img alt="image" src="null"/>
+                        <img alt="obsidian" src="null"/>
                         <div className={styles.itemDetails}>
                             <p>Obsidian</p>
                             <hr></hr>

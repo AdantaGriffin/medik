@@ -172,26 +172,21 @@ function Shop(){
                                 </li>
                             </ul>
                         </li>
-                        <li>
-                            <ul className={styles.shopHeaderSort}>
-                                <select>
-                                    <option>sort by:</option>
-                                </select>
-                            </ul>
-                        </li>
                     </ul>
                 </section>
                 <section className={styles.shopBody}>
-                    <div className={styles.item}>item</div>
-                    <div className={styles.item}>item</div>
-                    <div className={styles.item}>item</div>
-                    <div className={styles.item}>item</div>
-                    <div className={styles.item}>item</div>
-                    <div className={styles.item}>item</div>
-                    <div className={styles.item}>item</div>
-                    <div className={styles.item}>item</div>
-                    <div className={styles.item}>item</div>
-                    <div className={styles.item}>item</div>
+                    <ul className={styles.shopBodyList}>
+                        <li className={styles.item}>item</li>
+                        <li className={styles.item}>item</li>
+                        <li className={styles.item}>item</li>
+                        <li className={styles.item}>item</li>
+                        <li className={styles.item}>item</li>
+                        <li className={styles.item}>item</li>
+                        <li className={styles.item}>item</li>
+                        <li className={styles.item}>item</li>
+                        <li className={styles.item}>item</li>
+                        <li className={styles.item}>item</li>
+                    </ul>
                 </section>
             </section>
         </>
